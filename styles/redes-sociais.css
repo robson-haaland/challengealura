@@ -1,0 +1,33 @@
+.redes-sociais{
+    background-color: var(--preto);
+    justify-items: center;
+    width: 1440px;
+    height: 238px;
+}
+
+.redes-titulo{
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 32px;
+    font-weight: 500;
+    padding: 40px;
+}
+.redes-subtitulo{
+color: var(--amarelo);
+font-family: var(--fonte-principal);
+font-size: 16px;
+font-weight: 700;
+}
+
+.redes-descricao{
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.redes-container{
+    display: inline-block;
+    
+}
