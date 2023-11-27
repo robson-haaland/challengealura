@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.cabecalho{
+    background-color: var(--preto);
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: auto 1fr;
+    align-items: center; 
+   
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+.opcoes{
+   display: flex;
+   flex-direction: row;
+   gap: 1rem;
+   justify-content: space-between;
+   padding: 1rem;
+}
+
+
+form{
+    justify-self: end;
+
+}
+
+
+.search{
+    position: relative;
+    text-align: center;
+    height:35px;
+    margin-right: 5px;
+}
+
+.buscar-button{
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: var(--preto);
+    color: var(--branco);
+    border-color: var(--branco);
+}
+
+.opcoes_link{
+    margin: auto;
+    text-decoration: none;
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 16px;
+}
